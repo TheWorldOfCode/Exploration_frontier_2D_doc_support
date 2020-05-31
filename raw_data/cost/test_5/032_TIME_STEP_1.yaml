@@ -1,0 +1,7 @@
+image: /home/ubuntu/debug/32_TIME_STEP_1.pgm
+resolution: 0.100000
+origin: [-42.554703, -52.062330, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
