@@ -19,4 +19,10 @@ lxc launch exploration_frontier_2d mycontainer
 ```
 Where mycontainer is the name of the new container.
 
-In order
+In order enter the container 
+``` bash
+pulseaudio --start 
+lxc start mycontainer
+lxc exec mycontainer -- sudo --user ubuntu --login
+```
+The first two lines are only need when the container is not running 
