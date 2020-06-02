@@ -15,4 +15,8 @@ In the file exploration_frontier_2d_environment you can find a image for [LXD co
 In order to create a container with this image, run the following code
 ``` bash
 lxc image import exploration_frontier_2d_environment 
+lxc launch exploration_frontier_2d mycontainer
 ```
+Where mycontainer is the name of the new container.
+
+In order
