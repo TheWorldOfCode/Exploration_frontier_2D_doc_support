@@ -10,7 +10,7 @@ This repository contains:
 
 
 ## Testing environment 
-In the file exploration_frontier_2d_environment you can find a image for [LXD contianer](https://linuxcontainers.org/lxd/introduction/). This contains all the complete testing environment, such as the different ROS package and gazebo world files. This image requires to the default profile together with gui and modules. The gui profile allows the packages to open gui elements, and the modules gives the container access to the kernel module, only in read mode. This profiles can be found on [TheWorldOfCode/LXD](https://github.com/TheWorldOfCode/LXD). 
+On the link [enviroment](https://drive.google.com/file/d/1pOkoxbU8qE7XICGPc0hDa-PY7J1W0V6d/view?usp=sharing) you can find a image for [LXD contianer](https://linuxcontainers.org/lxd/introduction/). This contains all the complete testing environment, such as the different ROS package and gazebo world files. This image requires to the default profile together with gui and modules. The gui profile allows the packages to open gui elements, and the modules gives the container access to the kernel module, only in read mode. This profiles can be found on [TheWorldOfCode/LXD](https://github.com/TheWorldOfCode/LXD). 
 
 In order to create a container with this image, run the following code
 ``` bash
